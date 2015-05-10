@@ -40,9 +40,7 @@ p {
 }
 footer {
   
-.btn {
-  -webkit-border-radius: 5;
-  -moz-border-radius: 5;
+button {
   border-radius: 5px;
   font-family: Open Sans;
   color: #ffffff;
@@ -51,8 +49,8 @@ footer {
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
-
-.btn:hover {
+    }
+button:hover {
   background: #666666;
   text-decoration: none;
 }
