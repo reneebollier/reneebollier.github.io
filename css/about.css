@@ -39,7 +39,7 @@ p {
     color: #333;
 }
   
-button {
+.button {
     padding: 10px 20px 10px 20px;
     display: inline-block;
     text-decoration: none;
@@ -51,7 +51,7 @@ button {
 
 }
     
-button:hover {
+.button:hover {
   background: #666666;
   text-decoration: none;
 }
