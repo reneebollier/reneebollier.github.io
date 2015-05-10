@@ -13,7 +13,7 @@ body {
 }
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif,' 'Open Sans,' 'Lato';
+    font-family:'Open Sans,' 'Helvetica';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -44,7 +44,7 @@ footer {
   -webkit-border-radius: 5;
   -moz-border-radius: 5;
   border-radius: 5px;
-  font-family: Arial;
+  font-family: Open Sans;
   color: #ffffff;
   font-size: 17px;
   background: #b8b8b8;
