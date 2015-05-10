@@ -38,18 +38,19 @@ p {
     line-height: 1.4em;
     color: #333;
 }
-footer {
   
 button {
-  border-radius: 5px;
-  font-family: Open Sans;
-  color: #ffffff;
-  font-size: 17px;
-  background: #b8b8b8;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #b8b8b8;
+    font-family: Open Sans;
+    color: #ffffff;
+    font-size: 17px;
+
 }
-    }
+    
 button:hover {
   background: #666666;
   text-decoration: none;
