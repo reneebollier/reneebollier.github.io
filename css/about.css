@@ -5,7 +5,7 @@ body {
    background-size: cover;
    background-repeat: no-repeat;
    background-attachment: fixed;
-   text-align: left; 
+   text-align: center; 
    background: url("http://phandroid.s3.amazonaws.com/wp-content/uploads/2014/07/Icy-Polygons.jpg");
    color: black;
    font-family: Open Sans;
@@ -13,7 +13,7 @@ body {
 }
 }
 nav ul, footer ul {
-    font-family:'Open Sans,' 'Helvetica';
+    font-family:'Open Sans';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -22,6 +22,7 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
+
 a {
     text-decoration: none;
     color: #999;
@@ -31,7 +32,7 @@ a:hover {
 }
 h1 {
     font-size: 3em;
-    font-family: 'Open Sans,' 'Helvetica';
+    font-family: 'Open Sans';
 }
 p {
     font-size: 16px;
