@@ -16,7 +16,7 @@ nav ul, footer ul {
     font-family:'Open Sans';
     padding: 0px;
     list-style: none;
-    font-weight: bold;
+    font-weight: light;
 }
 nav ul li, footer ul li {
     display: inline;
@@ -28,7 +28,9 @@ a {
     color: #999;
 }
 a:hover {
-    text-decoration: underline;
+    background: #ffffff;
+    opacity: 0.7;
+    text-decoration: none;
 }
 h1 {
     font-size: 3em;
