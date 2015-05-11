@@ -6,7 +6,7 @@ nav ul, footer ul {
     font-family:'Open Sans;
     padding: 0px;
     list-style: none;
-    font-weight: bold;
+    font-weight: light;
 }
 nav ul li, footer ul li {
     display: inline;
