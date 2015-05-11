@@ -1,6 +1,6 @@
 body {
-    margin: 60px auto;
-    width: 70%;
+   margin: 60px auto;
+   width: 70%;
    background-position: center center;
    background-size: cover;
    background-repeat: no-repeat;
@@ -9,7 +9,7 @@ body {
    background: url("http://phandroid.s3.amazonaws.com/wp-content/uploads/2014/07/Icy-Polygons.jpg");
    color: black;
    font-family: Open Sans;
-   font-size: 18px;
+   font-size: 16px;
 }
 }
 nav ul, footer ul {
@@ -61,11 +61,4 @@ p {
   text-decoration: none;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
 
-ul.posts li {
-    list-style: none;
-}
