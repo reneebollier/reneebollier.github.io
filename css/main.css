@@ -7,19 +7,23 @@ body {
    background-attachment: fixed;
    text-align: center; 
    background: url("http://phandroid.s3.amazonaws.com/wp-content/uploads/2014/07/Icy-Polygons.jpg");
-   color: black;
-   font-family: Open Sans;
-   font-size: 58px;
+
 }
 }
 nav ul, footer ul {
     font-family:'Open Sans';
     list-style: none;
     font-weight: light;
+    color: black;
+   font-family: Open Sans;
+   font-size: 16px;
 }
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
+    color: black;
+   font-family: Open Sans;
+   font-size: 16px;
 }
 
 a {
