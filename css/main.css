@@ -22,8 +22,8 @@ body {
 }
     
 .button:hover {
-  color: #000000;
-  background: #ffffff;
+  color: #ffffff;
+  background: #000000;
   text-decoration: none;
   font-size: 24px;
   font-family: Open Sans;
