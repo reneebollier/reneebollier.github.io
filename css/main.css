@@ -22,7 +22,7 @@ body {
 }
     
 .button:hover {
-  background: #ffffff
+  background: #ffffff;
   opacity: 0.5;
   color: #000000;
   text-decoration: none;
@@ -37,14 +37,14 @@ body {
 
 
 p {
-    font-size: 108px;
+    font-size: 100px;
     font-family: 'Open Sans';
     font-weight: 300;
     text-align: center;
     width: auto;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 15%;
+    padding-top: 10%;
 }
 
 
