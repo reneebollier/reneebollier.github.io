@@ -15,7 +15,7 @@ body {
 nav ul, footer ul {
     font-family:'Open Sans';
     list-style: none;
-    font-weight: light;
+    font-weight: 300;
 }
 nav ul li, footer ul li {
     display: inline;
@@ -34,9 +34,10 @@ a:hover {
     border-radius: 2px;
     text-decoration: none;
 }
-h1 {
-    font-size: 3em;
+h2 {
+    font-size: 24px 
     font-family: 'Open Sans';
+    font-weight: 300;
 }
 p {
     font-size: 16px;
