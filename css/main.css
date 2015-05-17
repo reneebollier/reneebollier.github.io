@@ -23,6 +23,7 @@ body {
     
 .button:hover {
   color: #000000;
+  background: #ffffff;
   text-decoration: none;
   font-size: 24px;
   font-family: Open Sans;
