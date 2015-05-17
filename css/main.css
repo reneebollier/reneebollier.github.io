@@ -9,7 +9,29 @@ body {
    background: url("http://phandroid.s3.amazonaws.com/wp-content/uploads/2014/07/Icy-Polygons.jpg");
 
 }
+
+.button {
+    padding: 10px 20px 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 4px;
+    font-family: Open Sans;
+    color: #000000;
+    font-size: 18px;
+    border: solid #000000 3px;
 }
+    
+.button:hover {
+  background: #000000;
+  opacity: 0.7;
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+   display: inline-block;
+    text-decoration: none;
+    border-radius: 4px;
+     border: solid #000000 3px;
+}
+
 nav ul, footer ul {
     font-family:'Open Sans';
     list-style: none;
