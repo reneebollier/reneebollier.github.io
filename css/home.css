@@ -48,7 +48,7 @@ h2 {
     min-width: 260px;
     max-width: 640px;
     margin: auto;
-    border: 12px rgba(255,255,255,1) solid;
+    border: 12px rgba(255,255,255,0.7) solid;
     margin-top: 20px;
     position: relative;
 }
