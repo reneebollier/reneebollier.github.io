@@ -35,5 +35,10 @@ a:hover {
     text-decoration: none;
 }
 
+h2 {
+   font-family: 'Open Sans';
+   font-size: 24px;
+   font-weight: 300;
+}
 
 
