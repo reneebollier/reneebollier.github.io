@@ -29,8 +29,7 @@ a {
 
 }
 a:hover {
-    background: #ffffff;
-    opacity: 0.7;
+    background-color: rgba(255, 255, 255, 0.7);
     border-radius: 2px;
     text-decoration: none;
 }
