@@ -148,7 +148,7 @@ h2 {
 label.arrows {
     font-family: 'WebSymbolsRegular';
     font-size: 25px;
-    color: rgb(255,255,240);
+    color: rgb(255,255,255);
     position: absolute;
     top: 50%;
     margin-top: -25px;
@@ -161,7 +161,6 @@ label.arrows {
     -moz-transition: opacity .2s;
     -o-transition: opacity .2s;
     transition: opacity .2s;
-    text-shadow: 0px 0px 3px rgba(0,0,0,.8);
 }
 
 label.arrows:hover { opacity: 1 }
