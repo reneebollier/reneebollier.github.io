@@ -41,6 +41,56 @@ h2 {
    font-weight: 300;
 }
 
+ul {
+	background-color: #fff;
+	box-shadow: rgba(0, 0, 0, 0.75) 0 1px 12px;
+	display: inline-block;
+	left: 7.5%;
+	margin: 0;
+	padding: 61.3% 0 0 0;
+	position: relative;
+	width: 85%;
+}
+	
+	ul:before {
+		background-color: rgba(233, 0, 0, 0.7);
+		border-bottom-left-radius: 4px;
+		color: #fff;
+		content: "paused";
+		display: block;
+		font-size: 0.7em;
+		font-weight: 700;
+		right: 0;
+		opacity: 0;
+		padding: 0.2em 0.4em;
+		position: absolute;
+		text-align: center;
+		text-transform: uppercase;
+		top: 0;
+		z-index: 2;
+	}
+	
+	ul:hover:before {
+		opacity: 1;
+	}
+	
+	ul img {
+		display: block;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	ul:hover li,
+
+
+li {
+	left: 1.5%;
+	list-style: none inside;
+	overflow: hidden;
+	position: absolute;
+	top: 1.9%;
+	width: 97%;
+}
 ul:nth-of-type(2) {
 	z-index: 3;
 }
