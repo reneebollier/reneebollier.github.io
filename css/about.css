@@ -45,26 +45,29 @@ p {
     color: #333;
     text-align: left;
 }
-  
+    
 .button {
     padding: 10px 20px 10px 20px;
     display: inline-block;
     text-decoration: none;
     border-radius: 5px;
-    background-color: #b8b8b8;
     font-family: Open Sans;
-    color: #ffffff;
+    color: #000000;
     font-size: 16px;
-
+    border: solid #000000 3px;
 }
-    
+
 .button:hover {
-  background: #666666;
+  color: #000000;
+  background-color: rgba(255, 255, 255, 0.6); 
   text-decoration: none;
+  font-size: 16px;
+  font-family: Open Sans;
   padding: 10px 20px 10px 20px;
    display: inline-block;
     text-decoration: none;
     border-radius: 5px;
-}
+     border: solid #000000 3px;    
+
 
 
