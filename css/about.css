@@ -57,7 +57,7 @@ p {
     font-family: Open Sans;
     color: #000000;
     font-size: 16px;
-    border: solid #000000 2px;
+    border: solid #000000 1.5px;
 }
 
 .button:hover {
@@ -70,7 +70,7 @@ p {
   display: inline-block;
     text-decoration: none;
     border-radius: 2px;
-     border: solid #000000 2px;   
+     border: solid #000000 1.5px;   
 }
 
 
