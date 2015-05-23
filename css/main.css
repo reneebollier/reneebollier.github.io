@@ -23,6 +23,7 @@ body {
     
 .button:hover {
   color: #000000;
+  background-color: rgba(255, 255, 255, 0.6); 
   text-decoration: none;
   font-size: 24px;
   font-family: Open Sans;
@@ -30,7 +31,7 @@ body {
    display: inline-block;
     text-decoration: none;
     border-radius: 5px;
-     border: solid #ffffff 3px;
+     border: solid #000000 3px;
 }
 
 
