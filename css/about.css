@@ -45,7 +45,6 @@ h2 {
 section {
    width:350px;
     float:left;
-    margin-right:80px;
 }
 
 p {
@@ -53,6 +52,7 @@ p {
     line-height: 1.4em;
     color: #333;
     text-align: left;
+    margin-left: 40px;
 }
     
 .button {
