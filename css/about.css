@@ -52,7 +52,8 @@ p {
     line-height: 1.4em;
     color: #333;
     text-align: left;
-    margin-left: 40px;
+   padding: 40px 40px;
+   
 }
     
 .button {
