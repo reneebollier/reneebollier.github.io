@@ -53,10 +53,6 @@ p {
     line-height: 1.4em;
     color: #333;
     text-align: left;
-     margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 50px;
 }
     
 .button {
@@ -82,7 +78,7 @@ p {
   display: inline-block;
     text-decoration: none;
     border-radius: 2px;
-     border: solid #000000 1.5px;   
+    border: solid #000000 2px;   
 }
 
 
