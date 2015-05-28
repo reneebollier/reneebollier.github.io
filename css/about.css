@@ -66,7 +66,7 @@ p {
 .button:hover {
   color: #000000;
   display: inline-block;
-  background-color: rgba(193, 236, 255, 0.7);
+  background-color: rgba(185, 225, 251, 0.7);
   text-decoration: none;
   font-size: 14px;
   font-family: Open Sans;
