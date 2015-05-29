@@ -46,3 +46,15 @@ p {
     text-align: left;
 }
 
+.gallery {
+  height: auto;
+  top: 170px;
+  bottom: 7%;
+  position: fixed;
+  width: 65%;
+  margin-left: 18.5%;
+  margin-right: 18.5%;
+  padding: 30px;
+  text-align: center;
+}
+
