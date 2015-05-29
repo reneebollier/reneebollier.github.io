@@ -1,1 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Renee Bollier // Resume</title>
+		<h2>RENEE BOLLIER</h2>
+		<link rel="stylesheet" type="text/css" href="/css/photography.css">
+	</head>
+	<style>
+	</style>
+	<body>
+		<nav>
+    		<ul>
+        		<li><a href="/home">Home</a></li>
+	        	<li><a href="/about">About</a></li>
+	        	<li><a href="/resume">Resume</a></li>
+        		<li><a href="/graphic-design">Graphic Design</a></li>
+        		<li><a href="/writing">Writing</a></li>
+            		<li><a href="/photography">Photography</a></li>
+    		</ul>
+		</nav>
+		<br>
+		<div id="blueimp-gallery" class="blueimp-gallery">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+</div>
 
+<div id="links">
+    <a href="images/banana.jpg" title="Banana">
+        <img src="images/thumbnails/banana.jpg" alt="Banana">
+    </a>
+    <a href="images/apple.jpg" title="Apple">
+        <img src="images/thumbnails/apple.jpg" alt="Apple">
+    </a>
+    <a href="images/orange.jpg" title="Orange">
+        <img src="images/thumbnails/orange.jpg" alt="Orange">
+    </a>
+</div>
+
+<script src="js/blueimp-gallery.min.js"></script>
+
+<script>
+document.getElementById('links').onclick = function (event) {
+    event = event || window.event;
+    var target = event.target || event.srcElement,
+        link = target.src ? target.parentNode : target,
+        options = {index: link, event: event},
+        links = this.getElementsByTagName('a');
+    blueimp.Gallery(links, options);
+};
+</script>
+		</footer>
+	</body>
+</html>
