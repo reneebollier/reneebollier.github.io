@@ -42,7 +42,6 @@ h2 {
 
 
 #photos {
-  /* Prevent vertical gaps */
   line-height: 0;
    
   -webkit-column-count: 5;
@@ -54,7 +53,6 @@ h2 {
 }
 
 #photos img {
-  /* Just in case there are inline attributes */
   width: 100% !important;
   height: auto !important;
 }
@@ -86,4 +84,35 @@ h2 {
   -webkit-column-count: 1;
   column-count:         1;
   }
+}
+
+.lightbox {
+  /** Hide the lightbox */
+  display: none;
+
+  /** Apply basic lightbox styling */
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  top: 0;
+  left: 0;
+  background: black;
+  background: rgba(0,0,0,0.8);
+}
+
+.lightbox img {
+  /** Pad the lightbox image */
+  max-width: 90%;
+  max-height: 80%;
+  margin-top: 2%;
+}
+
+.lightbox:target {
+  /** Show lightbox when it is target */
+  display: block;
+
+  /** Remove default browser outline style */
+  outline: none;
 }
